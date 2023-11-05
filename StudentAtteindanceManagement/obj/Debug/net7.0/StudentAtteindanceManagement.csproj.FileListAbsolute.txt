@@ -23,3 +23,14 @@ C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManage
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\StudentAtteindanceManagement.pdb
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\StudentAtteindanceManagement.genruntimeconfig.cache
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\ref\StudentAtteindanceManagement.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Scrutor.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\StudentAtteindanceManagement.csproj.AssemblyReference.cache
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\StudentAtteindanceManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAtteindanceManagement\obj\Debug\net7.0\StudentAtteindanceManagement.csproj.CopyComplete

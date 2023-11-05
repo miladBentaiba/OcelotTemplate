@@ -7,13 +7,21 @@
                 {
                     "Host": "localhost",
                     "Port": 7264
-                },
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway1/{everything}",
+            "UpstreamHttpMethod": [ "Get" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
                     "Port": 7018
                 }
             ],
-            "UpstreamPathTemplate": "/gateway/{everything}",
+            "UpstreamPathTemplate": "/gateway2/{everything}",
             "UpstreamHttpMethod": [ "Get" ]
         }
     ],

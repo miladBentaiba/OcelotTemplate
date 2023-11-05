@@ -35,3 +35,11 @@ C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\obj\De
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\obj\Debug\net7.0\StudentApiGateway.pdb
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\obj\Debug\net7.0\StudentApiGateway.genruntimeconfig.cache
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\obj\Debug\net7.0\ref\StudentApiGateway.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Scrutor.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentApiGateway\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,3 +1,5 @@
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
@@ -11,10 +13,16 @@ builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
 
 builder.Services.AddControllers();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddOcelot();
 
 var app = builder.Build();
 
+app.UseSwagger();
+app.UseSwaggerUI();
 // Configure the HTTP request pipeline.
 
 app.UseHttpsRedirection();
