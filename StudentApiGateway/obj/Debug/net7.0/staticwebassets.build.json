@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D1D1OsPlX6sBaZGwNwQr2ePDd8ObBi+KmhpoKV74YRg=",
+  "Source": "StudentApiGateway",
+  "BasePath": "_content/StudentApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
