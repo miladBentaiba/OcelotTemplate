@@ -23,3 +23,14 @@ C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManageme
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\StudentAdmissionManagement.pdb
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\StudentAdmissionManagement.genruntimeconfig.cache
 C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\ref\StudentAdmissionManagement.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\StudentAdmissionManagement.csproj.AssemblyReference.cache
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\StudentAdmissionManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\obj\Debug\net7.0\StudentAdmissionManagement.csproj.CopyComplete
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Scrutor.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\mi.bentaiba\source\repos\MicroServices_MainApp\StudentAdmissionManagement\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
