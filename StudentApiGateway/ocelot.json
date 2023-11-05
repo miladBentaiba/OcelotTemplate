@@ -1,7 +1,7 @@
 {
     "Routes": [
         {
-            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamPathTemplate": "/{everything}",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -9,12 +9,13 @@
                     "Port": 7264
                 }
             ],
-            "UpstreamPathTemplate": "/gateway1/{everything}",
+            "UpstreamPathTemplate": "/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
-            "SwaggerKey": "student"
-        },
+            "SwaggerKey": "attendance"
+        }
+        ,
         {
-            "DownstreamPathTemplate": "/api/{everything}",
+            "DownstreamPathTemplate": "/{everything}",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
@@ -22,17 +23,27 @@
                     "Port": 7018
                 }
             ],
-            "UpstreamPathTemplate": "/gateway2/{everything}",
+            "UpstreamPathTemplate": "/api/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
-            "SwaggerKey": "student"
+            "SwaggerKey": "admission"
         }
     ],
     "SwaggerEndPoints": [
         {
-            "Key": "student",
+            "Key": "attendance",
             "Config": [
                 {
-                    "Name": "Contacts API",
+                    "Name": "attendances  API",
+                    "Version": "v1",
+                    "Url": "http://localhost:5100/swagger/v1/swagger.json"
+                }
+            ]
+        },
+        {
+            "Key": "admission",
+            "Config": [
+                {
+                    "Name": "admissions  API",
                     "Version": "v1",
                     "Url": "http://localhost:5100/swagger/v1/swagger.json"
                 }

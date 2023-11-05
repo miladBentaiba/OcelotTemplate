@@ -4,7 +4,7 @@ using StudentAdmissionManagement.Models;
 
 namespace StudentAdmissionManagement.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class StudentAdmissionController : ControllerBase
     {
