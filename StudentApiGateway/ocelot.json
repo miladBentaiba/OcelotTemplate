@@ -10,7 +10,8 @@
                 }
             ],
             "UpstreamPathTemplate": "/gateway1/{everything}",
-            "UpstreamHttpMethod": [ "Get" ]
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "student"
         },
         {
             "DownstreamPathTemplate": "/api/{everything}",
@@ -22,12 +23,13 @@
                 }
             ],
             "UpstreamPathTemplate": "/gateway2/{everything}",
-            "UpstreamHttpMethod": [ "Get" ]
+            "UpstreamHttpMethod": [ "Get" ],
+            "SwaggerKey": "student"
         }
     ],
     "SwaggerEndPoints": [
         {
-            "Key": "contacts",
+            "Key": "student",
             "Config": [
                 {
                     "Name": "Contacts API",
