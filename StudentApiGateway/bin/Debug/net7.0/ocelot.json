@@ -1,28 +1,32 @@
 {
     "Routes": [
         {
-            "DownstreamPathTemplate": "/api/StudentAttendance",
+            "DownstreamPathTemplate": "/api/{everything}",
             "DownstreamScheme": "https",
             "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
                     "Port": 7264
-                }
-            ],
-            "UpstreamPathTemplate": "/gateway/StudentAttendance",
-            "UpstreamHttpMethod": [ "Get" ]
-        },
-        {
-            "DownstreamPathTemplate": "/api/StudentAdmission",
-            "DownstreamScheme": "https",
-            "DownstreamHostAndPorts": [
+                },
                 {
                     "Host": "localhost",
                     "Port": 7018
                 }
             ],
-            "UpstreamPathTemplate": "/gateway/StudentAdmission",
+            "UpstreamPathTemplate": "/gateway/{everything}",
             "UpstreamHttpMethod": [ "Get" ]
+        }
+    ],
+    "SwaggerEndPoints": [
+        {
+            "Key": "contacts",
+            "Config": [
+                {
+                    "Name": "Contacts API",
+                    "Version": "v1",
+                    "Url": "http://localhost:5100/swagger/v1/swagger.json"
+                }
+            ]
         }
     ]
 }
