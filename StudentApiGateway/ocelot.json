@@ -6,6 +6,10 @@
             "DownstreamHostAndPorts": [
                 {
                     "Host": "localhost",
+                    "Port": 7018
+                },
+                {
+                    "Host": "localhost",
                     "Port": 7264
                 }
             ],
@@ -13,42 +17,30 @@
             "UpstreamHttpMethod": [ "Get" ],
             "SwaggerKey": "attendance"
         }
-            /*,
-        {
-            "DownstreamPathTemplate": "/{everything}",
-            "DownstreamScheme": "https",
-            "DownstreamHostAndPorts": [
-                {
-                    "Host": "localhost",
-                    "Port": 7018
-                }
-            ],
-            //"UpstreamPathTemplate": "/api/{everything}",
-            "UpstreamHttpMethod": [ "Get" ],
-            "SwaggerKey": "admission"
-        }*/
     ],
     "SwaggerEndPoints": [
         {
-            "Key": "attendance",
+            "Key": "attendance v1",
             "Config": [
                 {
-                    "Name": "attendances  API",
+                    "Name": "v1",
                     "Version": "v1",
-                    "Url": "https://localhost:7264/swagger/v1/swagger.json"
+                    "Url": "https://localhost:7105/swagger/v1/swagger.json"
                 }
             ]
         },
         {
-            "Key": "admission",
+            "Key": "v2",
             "Config": [
                 {
-                    "Name": "admissions  API",
-                    "Version": "v1",
-                    "Url": "https://localhost:7018/swagger/v1/swagger.json"
+                    "Name": "API v2",
+                    "Version": "v2",
+                    "Url": "https://localhost:7105/swagger/v1/swagger.json"
                 }
             ]
         }
-    ]
-
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost"
+    }
 }
