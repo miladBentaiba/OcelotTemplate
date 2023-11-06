@@ -32,9 +32,10 @@
             "Key": "attendance",
             "Config": [
                 {
+                    "IsVisible": true,
                     "Name": "attendance",
                     "Version": "v1",
-                    "Url": "https://localhost:7105/swagger/v1/swagger.json"
+                    "Url": "https://localhost:7264/swagger/v1/swagger.json"
                 }
             ]
         },
@@ -42,9 +43,10 @@
             "Key": "admission",
             "Config": [
                 {
+                    "IsVisible": true,
                     "Name": "admission",
                     "Version": "v1",
-                    "Url": "https://localhost:7105/swagger/v1/swagger.json"
+                    "Url": "https://localhost:7018/swagger/v1/swagger.json"
                 }
             ]
         }
