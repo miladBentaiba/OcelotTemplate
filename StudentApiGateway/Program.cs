@@ -5,13 +5,13 @@ using Ocelot.Middleware;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOcelot();
 
 builder.Services.AddSwaggerForOcelot(builder.Configuration);
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -31,6 +31,8 @@ builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
 
 var app = builder.Build();
 
+app.UsePathBase("/gateway");
+app.UseStaticFiles();
 app.UseCors(builder =>
 {
     builder.AllowAnyOrigin()
@@ -43,18 +45,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/attendance/swagger.json", "Attendance API");
-        c.SwaggerEndpoint("/swagger/admission/swagger.json", "Admission API");
+        c.SwaggerEndpoint("https://localhost:7264/swagger/v1/swagger.json", "Attendance API");
+        c.SwaggerEndpoint("https://localhost:7018/swagger/v1/swagger.json", "Admission API");
 
         // Add other microservice Swagger endpoints here.
     });
 }
 
-// Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 app.MapControllers();
 

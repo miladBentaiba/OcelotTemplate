@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "nhl7etgeIqxFlwJOQJxE/WyF85y2aTSliT++Arkid9jv0iEdXB5CeYUQ3yOzRpK83KKADZZevl5HbMvEfFJPqg==",
+  "dgSpecHash": "g1xQ8Zg2Zl9xWjftP730yNXNRzCWlazmTsTcUBldoF8jXvVWBBmhlCRJLIdtqdQ0Xac+kvm5HWVuo/vEXTsQxQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\StudentAtteindanceManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.openapi\\1.3.1\\microsoft.openapi.1.3.1.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
+    "C:\\Users\\mi.bentaiba\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\swashbuckle.aspnetcore.filters\\7.0.12\\swashbuckle.aspnetcore.filters.7.0.12.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\swashbuckle.aspnetcore.filters.abstractions\\7.0.12\\swashbuckle.aspnetcore.filters.abstractions.7.0.12.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
