@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAdmissionManagement", "StudentAdmissionManagement\StudentAdmissionManagement.csproj", "{E9D83D2B-FA80-487F-AFE8-65596C2F5C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAdmissionManagement", "StudentAdmissionManagement\StudentAdmissionManagement.csproj", "{E9D83D2B-FA80-487F-AFE8-65596C2F5C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAtteindanceManagement", "StudentAtteindanceManagement\StudentAtteindanceManagement.csproj", "{D676765C-FC3E-470E-8DDF-75B28E853F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAtteindanceManagement", "StudentAtteindanceManagement\StudentAtteindanceManagement.csproj", "{D676765C-FC3E-470E-8DDF-75B28E853F6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApiGateway", "StudentApiGateway\StudentApiGateway.csproj", "{F939393E-0287-42B9-9CBA-BC3C3FF6A18A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApiGateway", "StudentApiGateway\StudentApiGateway.csproj", "{F939393E-0287-42B9-9CBA-BC3C3FF6A18A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D676765C-FC3E-470E-8DDF-75B28E853F6E} = {D676765C-FC3E-470E-8DDF-75B28E853F6E}
+		{E9D83D2B-FA80-487F-AFE8-65596C2F5C65} = {E9D83D2B-FA80-487F-AFE8-65596C2F5C65}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C184BED-F88A-41D2-8589-46F3A2DF49F7}"
 	ProjectSection(SolutionItems) = preProject
