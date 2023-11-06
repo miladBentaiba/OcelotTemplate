@@ -9,7 +9,7 @@ namespace StudentAdmissionManagement.Controllers
     public class StudentAdmissionController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<StudentAdmission> Get()
+        public IEnumerable<StudentAdmission> Get([FromQuery] string keywords)
         {
             StudentAdmission st1 = new StudentAdmission();
             StudentAdmission st2 = new StudentAdmission();

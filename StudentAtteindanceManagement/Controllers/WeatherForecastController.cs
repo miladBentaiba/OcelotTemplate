@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using StudentAtteindanceManagement.Models;
 
 namespace StudentAtteindanceManagement.Controllers
 {

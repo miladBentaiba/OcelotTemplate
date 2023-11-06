@@ -9,11 +9,11 @@
                     "Port": 7264
                 }
             ],
-            "UpstreamPathTemplate": "/{everything}",
+            "UpstreamPathTemplate": "/api/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
             "SwaggerKey": "attendance"
         }
-        ,
+            /*,
         {
             "DownstreamPathTemplate": "/{everything}",
             "DownstreamScheme": "https",
@@ -23,10 +23,10 @@
                     "Port": 7018
                 }
             ],
-            "UpstreamPathTemplate": "/api/{everything}",
+            //"UpstreamPathTemplate": "/api/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
             "SwaggerKey": "admission"
-        }
+        }*/
     ],
     "SwaggerEndPoints": [
         {
@@ -35,7 +35,7 @@
                 {
                     "Name": "attendances  API",
                     "Version": "v1",
-                    "Url": "http://localhost:5100/swagger/v1/swagger.json"
+                    "Url": "https://localhost:7264/swagger/v1/swagger.json"
                 }
             ]
         },
@@ -45,9 +45,10 @@
                 {
                     "Name": "admissions  API",
                     "Version": "v1",
-                    "Url": "http://localhost:5100/swagger/v1/swagger.json"
+                    "Url": "https://localhost:7018/swagger/v1/swagger.json"
                 }
             ]
         }
     ]
+
 }

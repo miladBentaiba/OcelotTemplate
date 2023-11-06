@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using StudentAdmissionManagement.Models;
 
 namespace StudentAdmissionManagement.Controllers
 {
@@ -19,7 +20,7 @@ namespace StudentAdmissionManagement.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get([FromQuery] string keywords)
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
