@@ -19,8 +19,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("attendance", new OpenApiInfo { Title = "Attendance API", Version = "v1" });
-    c.SwaggerDoc("admission", new OpenApiInfo { Title = "Admission API", Version = "v1" });
+    c.SwaggerDoc("attendance", new OpenApiInfo { Title = "Attendance API"});
+    c.SwaggerDoc("admission", new OpenApiInfo { Title = "Admission API"});
 
     // Add other microservice Swagger documents here.
 });
@@ -31,7 +31,7 @@ builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
 
 var app = builder.Build();
 
-app.UsePathBase("/gateway");
+//app.UsePathBase("/gateway");
 app.UseStaticFiles();
 app.UseCors(builder =>
 {
@@ -40,30 +40,26 @@ app.UseCors(builder =>
            .AllowAnyHeader();
 });
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("https://localhost:7264/swagger/v1/swagger.json", "Attendance API");
-        c.SwaggerEndpoint("https://localhost:7018/swagger/v1/swagger.json", "Admission API");
-
-        // Add other microservice Swagger endpoints here.
-    });
-}
-
 
 
 app.MapControllers();
-
-
 
 app.UseSwaggerForOcelotUI(opt =>
 {
     opt.PathToSwaggerGenerator = "/swagger/docs";
 });
 
-app.UseOcelot().Wait(); 
+app.UseOcelot().Wait();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/attendance/swagger.json", "attendance");
+        c.SwaggerEndpoint("/swagger/admission/swagger.json", "admission");
 
+        // Add other microservice Swagger endpoints here.
+    });
+}
 app.UseRouting();
 app.Run();
