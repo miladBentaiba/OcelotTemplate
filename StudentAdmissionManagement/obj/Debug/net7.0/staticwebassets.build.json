@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "FztSLVfYlc1zjnUqmeHuBG1BufsKSygl6Lhi3rk6RZI=",
-  "Source": "StudentAdmissionManagement",
-  "BasePath": "_content/StudentAdmissionManagement",
+  "Hash": "CKKICbD4+4CsE1z24aPIhbS8LTtGLfunWCYqXHqhXus=",
+  "Source": "Service1",
+  "BasePath": "_content/Service1",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

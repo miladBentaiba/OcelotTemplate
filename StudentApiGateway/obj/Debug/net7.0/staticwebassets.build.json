@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "D1D1OsPlX6sBaZGwNwQr2ePDd8ObBi+KmhpoKV74YRg=",
-  "Source": "StudentApiGateway",
-  "BasePath": "_content/StudentApiGateway",
+  "Hash": "WwRToFtmtyVdnqQgSd/qzOCr4AjbUNnt4+h/MLZRLKU=",
+  "Source": "ApiGateway",
+  "BasePath": "_content/ApiGateway",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

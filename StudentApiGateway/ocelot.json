@@ -11,7 +11,7 @@
             ],
             "UpstreamPathTemplate": "/api/attendance/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
-            "SwaggerKey": "attendance",
+            "SwaggerKey": "attendance"
         },
         {
             "DownstreamPathTemplate": "/{everything}",
@@ -24,7 +24,7 @@
             ],
             "UpstreamPathTemplate": "/api/admission/{everything}",
             "UpstreamHttpMethod": [ "Get" ],
-            "SwaggerKey": "admission",
+            "SwaggerKey": "admission"
         }
     ],
     "SwaggerEndPoints": [
