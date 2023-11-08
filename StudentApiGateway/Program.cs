@@ -17,6 +17,7 @@ builder.Services.AddSwaggerForOcelot(builder.Configuration);
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("attendance", new OpenApiInfo { Title = "Attendance API"});
@@ -31,16 +32,7 @@ builder.Configuration.SetBasePath(builder.Environment.ContentRootPath)
 
 var app = builder.Build();
 
-//app.UsePathBase("/gateway");
 app.UseStaticFiles();
-app.UseCors(builder =>
-{
-    builder.AllowAnyOrigin()
-           .AllowAnyMethod()
-           .AllowAnyHeader();
-});
-
-
 
 app.MapControllers();
 
@@ -50,6 +42,7 @@ app.UseSwaggerForOcelotUI(opt =>
 });
 
 app.UseOcelot().Wait();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -61,5 +54,5 @@ if (app.Environment.IsDevelopment())
         // Add other microservice Swagger endpoints here.
     });
 }
-app.UseRouting();
+
 app.Run();
