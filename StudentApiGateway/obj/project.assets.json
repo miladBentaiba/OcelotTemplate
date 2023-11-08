@@ -5834,9 +5834,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\StudentApiGateway.csproj",
-      "projectName": "StudentApiGateway",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\StudentApiGateway.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\ApiGateway.csproj",
+      "projectName": "ApiGateway",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\ApiGateway.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\obj\\",
       "projectStyle": "PackageReference",

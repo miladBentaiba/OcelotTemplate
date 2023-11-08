@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OZ3JzgZieoeAHk7nRHgB+FaLu0e9Vl2U9n//v766ExNA608GYNNbPmXrJflXQmlJ1BZqWhvyn7hAB8pklhveZw==",
+  "dgSpecHash": "3UN9Lj7JPkDkMOYKrps9K4wEClhDVXoD1cCMBZSb64Yx5oEoMv0QFTHtWr2HueY88YrXDKzeJUdtCg0/IB/0Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\StudentApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

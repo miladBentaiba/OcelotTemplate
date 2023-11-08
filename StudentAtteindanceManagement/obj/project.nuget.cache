@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1xQ8Zg2Zl9xWjftP730yNXNRzCWlazmTsTcUBldoF8jXvVWBBmhlCRJLIdtqdQ0Xac+kvm5HWVuo/vEXTsQxQ==",
+  "dgSpecHash": "qrE8pqHd7oj57L29CwAKo0QhPm8l3zXQ77VuKtS41IR52D8P4owmPrisZNU/IP07DaU2e91um9BwCTHNzvF1DA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\StudentAtteindanceManagement.csproj",
+  "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\Service2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\mi.bentaiba\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",

@@ -665,9 +665,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAdmissionManagement\\StudentAdmissionManagement.csproj",
-      "projectName": "StudentAdmissionManagement",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAdmissionManagement\\StudentAdmissionManagement.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAdmissionManagement\\Service1.csproj",
+      "projectName": "Service1",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAdmissionManagement\\Service1.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAdmissionManagement\\obj\\",
       "projectStyle": "PackageReference",

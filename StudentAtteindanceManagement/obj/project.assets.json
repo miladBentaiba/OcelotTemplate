@@ -665,9 +665,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\StudentAtteindanceManagement.csproj",
-      "projectName": "StudentAtteindanceManagement",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\StudentAtteindanceManagement.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\Service2.csproj",
+      "projectName": "Service2",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\Service2.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\MicroServices_MainApp\\StudentAtteindanceManagement\\obj\\",
       "projectStyle": "PackageReference",
